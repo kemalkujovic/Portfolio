@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
-    navigator.clipboard.writeText("kemalkujovic1111@gmail.com");
+    navigator.clipboard.writeText("kemalkujovic99@gmail.com");
     setShowTooltip(true);
     setTimeout(() => {
       setShowTooltip(false);
@@ -32,7 +32,7 @@ function Contact() {
                   justifyContent: "center",
                 }}
               >
-                <span>kemalkujovic1111@gmail.com</span>
+                <span>kemalkujovic99@gmail.com</span>
                 <Tooltip
                   PopperProps={{
                     disablePortal: true,
@@ -56,7 +56,7 @@ function Contact() {
               </div>
               <a
                 className="btn PrimaryBtn btn-shadow"
-                href="mailto:kemalkujovic1111@gmail.com"
+                href="mailto:kemalkujovic99@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

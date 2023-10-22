@@ -46,7 +46,7 @@ function Hero() {
 
                     2000,
                     "Uhh... you can scroll down to see my projects now...",
-                    2000,
+                    300,
                     () => setShowScrollDown(true),
                   ]}
                   speed={50}
@@ -59,7 +59,11 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
-              <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
+              <Image
+                style={{ height: "430px" }}
+                src="/0.png"
+                alt="man-svgrepo"
+              />
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
