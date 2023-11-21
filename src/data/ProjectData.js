@@ -5,9 +5,18 @@ export const ProjectList = [
     title: "Football App",
     description:
       "The latest news from world of football, match overview, live results, overview of results of all leagues in the world, top 5 leagues, player statistics, standings. Fetching data from multiple sources.",
-    tech_stack: ["React", "Firebase", "Redux"],
+    tech_stack: ["React", "Firebase", "Redux/Thunk", "Material UI"],
     github_url: "https://github.com/kemalkujovic/Football-app",
     demo_url: "https://kk-livescoree.netlify.app",
+  },
+  {
+    img: "/taskmanger.PNG",
+    title: "Task Manger",
+    description:
+      "Task Manager application built using cutting-edge technologies. Leveraging Next.js with TypeScript for the frontend, MongoDB as the backend database, and Prism for seamless connectivity, this application offers a streamlined experience for managing tasks.",
+    tech_stack: ["Next", "React", "TypeScript", "MongoDB", "Prisma"],
+    github_url: "https://github.com/kemalkujovic/task-manager",
+    demo_url: "task-manager-kk.vercel.app",
   },
   {
     img: "/ChatApp.PNG",
@@ -38,9 +47,15 @@ export const ProjectList = [
   },
 ];
 
-// --------------------------------------- Skills
-
 export const stackList = [
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    name: "Next.js",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    name: "TypeScript",
+  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     name: "JavaScript",
@@ -48,6 +63,15 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    name: "MongoDB",
+  },
+
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
+    name: "Firebase",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
@@ -59,17 +83,12 @@ export const stackList = [
   },
 
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-    name: "Git",
-  },
-
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
-  },
-  {
     img: "https://d4jyn86spyrm8.cloudfront.net/redux.png",
     name: "Redux",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    name: "TailwindCSS",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
@@ -78,10 +97,5 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
     name: "Material UI",
-  },
-
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
   },
 ];

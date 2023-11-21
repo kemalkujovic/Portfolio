@@ -22,11 +22,12 @@ function About() {
             <ScrollAnimation animateIn="fadeInLeft">
               Hello! My name is <strong>Kemal Kujovic</strong>. I am software
               developer from Serbia. Right now I'm focused on Frontend
-              technologies, working with Javascript, React.js, Redux toolkit as
+              technologies, working with Next.js, React.js, Redux toolkit as
               state management, Responsive web design with Material UI and
               Bootstrap CSS frameworks. Also i have strong knowledge in working
-              with API's. I am a fast learner and always want to learn new
-              technologies and new things from more experienced developers.
+              with API's. I am a fast learner and I enjoy learning new things
+              from more experienced developers. I plan to start learning new
+              technologies such as React Native.
             </ScrollAnimation>
 
             <br />
