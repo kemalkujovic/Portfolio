@@ -4,7 +4,8 @@ export const ProjectList = [
     img: "/Football App.PNG",
     title: "Football App",
     description:
-      "The latest news from world of football, match overview, live results, overview of results of all leagues in the world, top 5 leagues, player statistics, standings. Fetching data from multiple sources.",
+      "The Football App project represents my clone of the popular FlashScore platform, built using technologies such as React, Firebase, JavaScript, Material-UI, and Redux. This web application allows users to track live scores, explore statistics, player details, and more. With features like favorites, goal notifications, player search, and league overviews, this app delivers a comprehensive football-following experience. Users can personalize their home screen with favorite leagues for quick access to relevant information.",
+
     tech_stack: ["React", "Firebase", "Redux/Thunk", "Material UI"],
     github_url: "https://github.com/kemalkujovic/Football-app",
     demo_url: "https://kk-livescoree.netlify.app",
@@ -72,6 +73,14 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
     name: "Firebase",
+  },
+  {
+    img: "https://bizgiveworld.com/wp-content/uploads/2020/04/aws-logo.png",
+    name: "AWS",
+  },
+  {
+    img: "https://raw.githubusercontent.com/prisma/presskit/main/Assets/Prisma-DarkSymbol.svg",
+    name: "Prisma",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
