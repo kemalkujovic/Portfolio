@@ -6,7 +6,13 @@ export const ProjectList = [
     description:
       "The Football App project represents my clone of the popular FlashScore platform, built using technologies such as React, Firebase, JavaScript, Material-UI, and Redux. This web application allows users to track live scores, explore statistics, player details, and more. With features like favorites, goal notifications, player search, and league overviews, this app delivers a comprehensive football-following experience. Users can personalize their home screen with favorite leagues for quick access to relevant information.",
 
-    tech_stack: ["React", "Firebase", "Redux/Thunk", "Material UI"],
+    tech_stack: [
+      "React",
+      "JavaScript",
+      "Firebase",
+      "Redux/Thunk",
+      "Material UI",
+    ],
     github_url: "https://github.com/kemalkujovic/Football-app",
     demo_url: "https://kk-livescoree.netlify.app",
   },
@@ -24,7 +30,7 @@ export const ProjectList = [
     title: "Chat-Application",
     description:
       "This chat application is built using React and Firebase Realtime Database technologies, enabling users to communicate in real time and exchange messages efficiently and securely",
-    tech_stack: ["React", "Firebase", "Redux"],
+    tech_stack: ["React", "JavaScript", "Firebase", "Redux"],
     github_url: "https://github.com/kemalkujovic/Chat-Application",
     demo_url: "https://chat-application-kk.netlify.app/login",
   },
@@ -33,7 +39,7 @@ export const ProjectList = [
     title: "NETFLIX-CLONE",
     description:
       "This project is a Netflix clone created using the React library for the frontend, Firebase for the backend and authentication, and Stripe for payment integration.",
-    tech_stack: ["React", "Firebase", "Redux", "Stripe"],
+    tech_stack: ["React", "JavaScript", "Firebase", "Redux", "Stripe"],
     github_url: "https://github.com/kemalkujovic/netflix-clone",
     demo_url: "https://kk-netflix-clone.netlify.app",
   },
@@ -42,7 +48,7 @@ export const ProjectList = [
     title: "Architect-portfolio",
     description:
       "Explore architect portfolio, thoughtfully designed and meticulously crafted using React. Dive into a world of innovative designs, sustainable architecture, and creative solutions. ",
-    tech_stack: ["React", "Material UI"],
+    tech_stack: ["React", "JavaScript", "Material UI"],
     github_url: "https://github.com/kemalkujovic/architect-portfolio",
     demo_url: "https://ak-portfolio-test.netlify.app",
   },
