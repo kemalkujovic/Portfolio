@@ -1,7 +1,18 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/Football App.PNG",
+    img: "/capture4.PNG",
+    title: "E-Commerce",
+    description:
+      "A full-stack e-commerce platform with admin panel and online store within a single project. Stripe is employed for secure and reliable payment transactions, while modern technologies such as Next.js, React, TypeScript, MongoDB, AWS S3, ShadCN, and Tailwind CSS for user experience, and administrative experience. This platform delivers a comprehensive shopping and management experience, providing users and administrators versatile access to all aspects.",
+    tech_stack: [
+      "Next", "React", "TypeScript", "MongoDB",'AWS S3','ShadCN','Tailwind CSS'
+    ],
+    github_url: "https://github.com/kemalkujovic/nextjs-ecommerce",
+    demo_url: "https://kk-nextjs-ecommerce.vercel.app/",
+  },
+  {
+    img: "/capture.PNG",
     title: "Football App",
     description:
       "The Football App project represents my clone of the popular FlashScore platform, built using technologies such as React, Firebase, JavaScript, Material-UI, and Redux. This web application allows users to track live scores, explore statistics, player details, and more. With features like favorites, goal notifications, player search, and league overviews, this app delivers a comprehensive football-following experience. Users can personalize their home screen with favorite leagues for quick access to relevant information.",
@@ -17,7 +28,7 @@ export const ProjectList = [
     demo_url: "https://kk-livescoree.netlify.app",
   },
   {
-    img: "/taskmanger.PNG",
+    img: "/capture5.PNG",
     title: "Task Manger",
     description:
       "Task Manager application built using cutting-edge technologies. Leveraging Next.js with TypeScript for the frontend, MongoDB as the backend database, and Prism for seamless connectivity, this application offers a streamlined experience for managing tasks.",
