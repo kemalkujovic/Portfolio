@@ -34,7 +34,7 @@ export const ProjectList = [
       "Task Manager application built using cutting-edge technologies. Leveraging Next.js with TypeScript for the frontend, MongoDB as the backend database, and Prism for seamless connectivity, this application offers a streamlined experience for managing tasks.",
     tech_stack: ["Next", "React", "TypeScript", "MongoDB", "Prisma"],
     github_url: "https://github.com/kemalkujovic/task-manager",
-    demo_url: "task-manager-kk.vercel.app",
+    demo_url: "https://task-manager-kk.vercel.app",
   },
   {
     img: "/ChatApp.PNG",
