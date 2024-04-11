@@ -1,17 +1,6 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/capture4.PNG",
-    title: "E-Commerce",
-    description:
-      "A full-stack e-commerce platform with admin panel and online store within a single project. Stripe is employed for secure and reliable payment transactions, while modern technologies such as Next.js, React, TypeScript, MongoDB, AWS S3, ShadCN, and Tailwind CSS for user experience, and administrative experience. This platform delivers a comprehensive shopping and management experience, providing users and administrators versatile access to all aspects.",
-    tech_stack: [
-      "Next", "React", "TypeScript", "MongoDB",'AWS S3','ShadCN','Tailwind CSS'
-    ],
-    github_url: "https://github.com/kemalkujovic/nextjs-ecommerce",
-    demo_url: "https://kk-nextjs-ecommerce.vercel.app/",
-  },
-  {
     img: "/capture.PNG",
     title: "Football App",
     description:
@@ -27,6 +16,24 @@ export const ProjectList = [
     github_url: "https://github.com/kemalkujovic/Football-app",
     demo_url: "https://kk-livescoree.netlify.app",
   },
+  {
+    img: "/capture4.PNG",
+    title: "E-Commerce",
+    description:
+      "A full-stack e-commerce platform with admin panel and online store within a single project. Stripe is employed for secure and reliable payment transactions, while modern technologies such as Next.js, React, TypeScript, MongoDB, AWS S3, ShadCN, and Tailwind CSS for user experience, and administrative experience. This platform delivers a comprehensive shopping and management experience, providing users and administrators versatile access to all aspects.",
+    tech_stack: [
+      "Next",
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "AWS S3",
+      "ShadCN",
+      "Tailwind CSS",
+    ],
+    github_url: "https://github.com/kemalkujovic/nextjs-ecommerce",
+    demo_url: "https://kk-nextjs-ecommerce.vercel.app/",
+  },
+
   {
     img: "/capture5.PNG",
     title: "Task Manger",
