@@ -1,7 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
 import {
-  Image,
   Technologies,
   Tech,
   TechImg,
@@ -15,23 +14,16 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <ScrollAnimation animateIn="fadeInLeft">
-            <Image src="/0.png" alt="man-svgrepo" />
-          </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Kemal Kujovic</strong>. I am software
-              developer from Serbia. Right now I'm focused on Frontend
-              technologies, working with Next.js, React.js, Redux toolkit as
-              state management, Responsive web design with Material UI and
-              Bootstrap CSS frameworks. Also i have strong knowledge in working
-              with API's. I am a fast learner and I enjoy learning new things
-              from more experienced developers. I plan to start learning new
-              technologies such as React Native.
+              Hello! My name is <strong>Kemal Kujovic</strong>. Frontend
+              Developer with knowledge of HTML, CSS, JavaScript, React, Next.js
+              seeking to use technical proficiency and creativity to develop
+              engaging user experiences and advance in a professional career.
+              Looking to leverage effective debugging, code optimization and
+              project collaboration capabilities to produce applications that
+              exceed user expectations.
             </ScrollAnimation>
-
-            <br />
-            <br />
 
             <br />
             <br />
