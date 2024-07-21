@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import {
@@ -8,13 +8,11 @@ import {
   HeroRight,
   Image,
 } from "./HeroElements";
+import { DropDownContext } from "../../context";
 
 function Hero() {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isOpen, toggle } = useContext(DropDownContext);
 
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <main>
       <Dropdown isOpen={isOpen} toggle={toggle} />
