@@ -2,7 +2,6 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from "../../assets/Kemal Kujovic - CV.pdf";
 const SiderBar = styled.div`
   background: #151418;
   position: fixed;
@@ -74,9 +73,9 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href={Resume}
-          download="Kemal Kujovic - CV.pdf"
+          href="https://drive.google.com/file/d/1apS9W-becMK7pWUGPXLhAxVeO0fIHLIz/view?usp=sharing"
           rel="noopener noreferrer"
+          target="_blank"
         >
           Resume
         </a>
