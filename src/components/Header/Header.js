@@ -1,6 +1,5 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import Resume from "../../assets/Kemal Kujovic - CV.pdf";
 import logoImage from "../../assets/logo.png";
 const Header = ({ toggle }) => {
   return (
@@ -23,9 +22,9 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href={Resume}
+            href="https://drive.google.com/file/d/1apS9W-becMK7pWUGPXLhAxVeO0fIHLIz/view?usp=sharing"
             rel="noopener noreferrer"
-            download={"Kemal Kujovic - CV.pdf"}
+            target="_blank"
           >
             Resume
           </a>
