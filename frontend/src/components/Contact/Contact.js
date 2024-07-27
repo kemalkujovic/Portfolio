@@ -3,8 +3,9 @@ import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
-
+import axios from "axios";
 import ScrollAnimation from "react-animate-on-scroll";
+
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
@@ -13,6 +14,20 @@ function Contact() {
     setTimeout(() => {
       setShowTooltip(false);
     }, 700);
+  };
+
+  const onSubmit = async () => {
+    const data = {
+      name: "Kemal",
+      email: "kemalkujovic1111@gmail.com",
+      message: "Hello from node.js server!",
+    };
+    try {
+      const res = await axios.post("http://localhost:3000/send", data);
+      console.log(res.data);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -63,6 +78,7 @@ function Contact() {
                 Send Email
               </a>
             </Email>
+            <button onClick={onSubmit}>SEND MAIL</button>
           </div>
         </ScrollAnimation>
       </div>
