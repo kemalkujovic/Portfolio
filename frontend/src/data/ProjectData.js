@@ -74,14 +74,6 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "Next.js",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "TypeScript",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     name: "JavaScript",
   },
@@ -90,22 +82,14 @@ export const stackList = [
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    name: "Next.js",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    name: "TypeScript",
   },
 
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
-  },
-  {
-    img: "https://bizgiveworld.com/wp-content/uploads/2020/04/aws-logo.png",
-    name: "AWS",
-  },
-  {
-    img: "https://raw.githubusercontent.com/prisma/presskit/main/Assets/Prisma-DarkSymbol.svg",
-    name: "Prisma",
-  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
     name: "HTML",
@@ -114,21 +98,16 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
     name: "CSS",
   },
-
   {
-    img: "https://d4jyn86spyrm8.cloudfront.net/redux.png",
-    name: "Redux",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
+    name: "Firebase",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
     name: "TailwindCSS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
+    img: "https://d4jyn86spyrm8.cloudfront.net/redux.png",
+    name: "Redux",
   },
 ];
